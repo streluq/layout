@@ -8,7 +8,9 @@ body{
     margin-left: auto;
     max-width: 1150px;
 
-
+}
+.center{
+    background: #F5FAFE;
 }
 .containerFirst{
     background: #F5FAFE;
@@ -49,14 +51,12 @@ body{
    font-size: 18px;
     padding-right: 20px
 }
-.containerSecond{
-    height: 120px;
-    padding-top: 51px;
-}
 header{
     display: flex;
     text-align: center;
     box-sizing: border-box;
+    height: 120px;
+    padding-top: 51px;
 }
 .logo {
     font-family: Luckiest Guy;
@@ -74,7 +74,7 @@ header{
 }
 .inputBlock input{
     width: 285px;
-    background: #F5FAFE;
+    background: #FFFFFF;
     border: none;
     border-radius: 6px 0 0 6px;
     padding-left: 23px;
@@ -82,7 +82,328 @@ header{
 .inputBlock button{
     border: none;
     width: 60px;
-    color: #eeeeee;
-    background: #EC1F46;
+    color: #FFFFFF;
+    background: #ec1f46;
     border-radius: 0 6px 6px 0;
+}
+.shoppingAwesome{
+    position: relative;
+    margin-right: 55px;
+
+}
+.cartShopping{
+    font-size: 30px;
+}
+.shoppingAwesome span{
+    position: absolute;
+    font-size: 10px;
+    right: -15px;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    background: #ec1f46;
+    color: #FFFFFF;
+    border-radius: 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.nathan{
+    margin-right: 24px;
+    margin-left: 18px;
+}
+.containerSecond{
+    background: #0A223D;
+    box-sizing: border-box;
+    height: 80px;
+}
+.all li:last-child{
+    margin-right: 0;
+}
+nav{
+
+    box-sizing: border-box;
+}
+.all{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+.all li{
+    margin-right: 84px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding-top: 30px;
+    white-space: nowrap;
+}
+.liHome{
+    height: 50px;
+    padding-top: 18px;
+    box-sizing: border-box;
+}
+.liHome ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 10px;
+}
+.star{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 7px;
+    color: #F2994A;
+}
+.star li{
+    padding-right: 4px;
+}
+.hiltonName{
+    height: 100px;
+    display: flex;
+}
+.grandButton{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.uii{
+    display: flex;
+    text-align: center;
+}
+.titleHilton{
+    font-weight: 700;
+    font-size: 24px;
+    padding-right:23px;
+}
+.grandButton button{
+    background: #ec1f46;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: none;
+    font-size: 10px;
+    height: 20px;
+    width: 70px;
+    padding: 3px 9px 3px 9px;
+    margin-top: 4px;
+}
+.signature {
+    font-size: 12px;
+    text-align: start;
+}
+.user{
+    margin-left: auto;
+    width: 65px;
+    height: 45px;
+    background: #ec1f46;
+    border-radius: 4px;
+    border: none;
+}
+.text{
+    font-weight: 600;
+    font-size: 8px;
+    color: #FFFFFF;
+}
+.number{
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-top: 2px;
+}
+.number span{
+    font-size: 12px;
+}
+ .containerImg{
+     display: flex;
+ }
+ .firstCard{
+     margin-right: auto;
+ }
+.cardSecond{
+    width: 350px;
+    height: 210px;
+    background: #0A223D;
+    margin-bottom: 27px;
+    border-radius: 8px;
+    padding: 29px 29px 26px 26px;
+    box-sizing: border-box;
+}
+.price{
+    color: #FFFFFF;
+
+}
+.topText{
+   font-size: 10px;
+}
+.priceElement{
+    font-weight: 800;
+    font-size: 24px;
+}
+.bottomText{
+    font-size: 12px;
+}
+.sectionTop{
+    display: flex;
+}
+.person{
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-left: auto;
+}
+.us{
+    padding-right: 13px;
+}
+.home{
+    padding-right: 15px;
+}
+.homeSec{
+    padding-top: 10px;
+}
+.call{
+    display: flex;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.quick{
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: auto;
+}
+.pho{
+    display: flex;
+    font-size: 18px;
+}
+.phone{
+    padding-right: 8px;
+    padding-top: 3px;
+}
+.cardBlack{
+    width: 295px;
+    height: 45px;
+    background: #EC1F46;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-top: 17px;
+    border: none;
+}
+ .list{
+     display: flex;
+     list-style-type: none;
+     align-items: center;
+     justify-content: space-between;
+     height: 130px;
+     padding: 0;
+     margin: 0;
+}
+ .list li{
+     font-weight: 700;
+     font-size: 14px;
+ }
+ .list .summery:first-child{
+     color: #EC1F46;
+     position: relative;
+ }
+
+.list .summery:first-child::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    bottom: -15px;
+    left: 0;
+    background: #EC1F46;
+    width: 100%;
+ }
+.titlePackage{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.containerSpeaker{
+    display: flex;
+}
+.speaker{
+    height: 200px;
+    width: 528px;
+
+}
+.headSpe{
+    background: #0A223D;
+    color: #FFFFFF;
+    padding: 16px 0 16px 24px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.bodySpe{
+    display: flex;
+    padding: 30px 30px 30px 24px;
+    background: #FFFFFF ;
+}
+.bodySpe ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 12px;
+    color: #333333;
+    font-weight: 400;
+}
+.right li {
+    padding-left: 75px;
+}
+.awesomeP{
+    padding-right: 20px;
+}
+.liLeft{
+    padding-bottom: 24px;
+}
+.offerDetails{
+    height: 200px;
+    width: 528px;
+    margin-left: auto;
+}
+.headOffer{
+    background: #0A223D;
+    color: #FFFFFF;
+    padding: 16px 0 16px 24px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.bodyOffer{
+    display: flex;
+    padding: 30px 30px 18px 24px;
+    background: #FFFFFF ;
+    font-size: 12px;
+    color: #333333;
+    font-weight: 400;
+}
+.benefit{
+    display: flex;
+    max-width: 170px;
+    font-size: 12px;
+
+}
+.bodyOffer p{
+    padding: 0;
+    margin: 0;
+}
+.rightOffer{
+    display: flex;
+    margin-left: auto;
+}
+.pBottom{
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+.awes{
+    padding-right: 20px;
 }
