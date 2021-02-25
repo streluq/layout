@@ -424,16 +424,18 @@ nav{
     flex-direction: column;
 }
 .bodyBlockSummery{
-    padding: 38px 85px 60px 25px;
+    padding: 38px 25px 60px 25px;
     background: #FFFFFF;
     border-radius: 8px;
 }
 .containerColumn{
     display: flex;
-    justify-content: space-between;
     padding-bottom: 45px;
-    border: 1px dashed #E0E0E0;
+    border-bottom: 1px dashed #E0E0E0;
 
+}
+.containerColumnList{
+    width: 33.3%;
 }
 .threeColumn p{
    margin: 0;
@@ -469,4 +471,12 @@ nav{
     display: flex;
     padding-top: 22px;
     font-size: 12px;
+}
+.titleOtherPackages{
+    font-weight: 700;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding-top: 105px;
+    padding-bottom: 65px;
 }
